@@ -13,23 +13,27 @@ namespace Roulette.Unit.Test
 	public class RouletteUnitTest
 	{
 		//private RouletteGame _rouletteGame;
-		private Roulette _uut;
+		private IRoulette _roulette;
+	    private RouletteGame _uut;
 		private IRandom _random;
 		private IFieldFactory _fieldFactory;
 
 		[SetUp]
 		public void Setup()
 		{
-			_random = Substitute.For<IRandom>();
-			_fieldFactory = Substitute.For<IFieldFactory>();
-			_uut = new Roulette(_fieldFactory, _random);
+            // Arrange
+		    _roulette = Substitute.For<IRoulette>();
+		    _uut = new RouletteGame(_roulette);
+		    _roulette.GetResult().Returns(new Field(4, Field.Black));
 		}
 
 		[Test]
-		public void Spin_Test()
+		public void OpeBets_IsRoundOpen_True()
 		{
-			_uut.Spin();
-			_uut.Received().Spin();
+            // Act
+            _uut.OpenBets();
+            // Assert
+		    Assert.That(_uut.RoundIsOpen, Is.True);
 		}
 	}
 }

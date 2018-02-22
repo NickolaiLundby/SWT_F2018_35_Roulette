@@ -24,6 +24,7 @@ namespace Roulette.Application
 		    game.CloseBets();
 		    game.SpinRoulette();
 		    game.PayUp();
-		}
+            Console.ReadLine();
+        }
     }
 }
