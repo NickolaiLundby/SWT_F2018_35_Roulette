@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roulette.Application", "Rou
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roulette.Unit.Test", "Roulette.Unit.Test\Roulette.Unit.Test.csproj", "{08A32930-B5A7-4E3B-BA3C-67E5984FD52B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roulette.Legacy", "Roulette.Legacy\Roulette.Legacy.csproj", "{874EB4C6-829A-4F3A-B3CB-94227B1FDB3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{08A32930-B5A7-4E3B-BA3C-67E5984FD52B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08A32930-B5A7-4E3B-BA3C-67E5984FD52B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08A32930-B5A7-4E3B-BA3C-67E5984FD52B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{874EB4C6-829A-4F3A-B3CB-94227B1FDB3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{874EB4C6-829A-4F3A-B3CB-94227B1FDB3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{874EB4C6-829A-4F3A-B3CB-94227B1FDB3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{874EB4C6-829A-4F3A-B3CB-94227B1FDB3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
