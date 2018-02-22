@@ -31,7 +31,5 @@ namespace Roulette.Unit.Test
 			_uut.Spin();
 			_uut.Received().Spin();
 		}
-
-
 	}
 }
