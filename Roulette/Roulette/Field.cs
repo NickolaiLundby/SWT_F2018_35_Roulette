@@ -14,7 +14,7 @@ namespace Roulette
 	    private uint _color;
 	    private uint _number;
 
-	    public Field(uint color, uint number)
+	    public Field(uint number, uint color)
 	    {
 		    Color = color;
 		    Number = number;

@@ -1,6 +1,6 @@
 ﻿namespace Roulette
 {
-	internal interface IRandom
+	public interface IRandom
 	{
 		uint Next(int lower, int higher);
 	}

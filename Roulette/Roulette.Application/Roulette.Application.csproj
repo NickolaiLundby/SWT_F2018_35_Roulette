@@ -48,5 +48,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Roulette\Roulette.csproj">
+      <Project>{0665c582-b48c-4fdd-afb6-c7c28c6a60be}</Project>
+      <Name>Roulette</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

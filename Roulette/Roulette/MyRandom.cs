@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Roulette
 {
-    class Random : IRandom
+    public class MyRandom : IRandom
     {
 	    public uint Next(int lower, int higher)
 	    {
