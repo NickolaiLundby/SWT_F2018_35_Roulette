@@ -1,15 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2027
+VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roulette", "Roulette\Roulette.csproj", "{0665C582-B48C-4FDD-AFB6-C7C28C6A60BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Roulette", "Roulette\Roulette.csproj", "{0665C582-B48C-4FDD-AFB6-C7C28C6A60BE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roulette.Application", "Roulette.Application\Roulette.Application.csproj", "{6F98CE90-C33C-4A6C-9237-2C07C3A72DCB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roulette.Unit.Test", "Roulette.Unit.Test\Roulette.Unit.Test.csproj", "{08A32930-B5A7-4E3B-BA3C-67E5984FD52B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roulette.Legacy", "Roulette.Legacy\Roulette.Legacy.csproj", "{874EB4C6-829A-4F3A-B3CB-94227B1FDB3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ACCBB1E7-A0BE-4F9D-9DF9-401E4698E71F}"
+	ProjectSection(SolutionItems) = preProject
+		..\dotCoverCoverageConfig.xml = ..\dotCoverCoverageConfig.xml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
